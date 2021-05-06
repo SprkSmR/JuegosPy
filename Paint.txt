@@ -1,5 +1,4 @@
 """Paint, for drawing shapes.
-HOLA OMAR KOMO EZTAS
 Exercises
 
 1. Add a color.
@@ -7,8 +6,8 @@ Exercises
 3. Complete rectangle.
 4. Complete triangle.
 5. Add width parameter.
-
 """
+
 #Librerias de donde se importa
 from turtle import *
 from freegames import vector
@@ -16,7 +15,7 @@ from freegames import vector
 #Funciones
 #Funcion para dibujar una linea
 #Recibe un punto de inicio (x, y)
-#Y uno de salida (x,y)
+#Y uno de final (x,y)
 def line(start, end):
     "Draw line from start to end."
     up()
@@ -25,13 +24,15 @@ def line(start, end):
     goto(end.x, end.y)
 
 #Funcion para dibujar un cuadrado
+#Tambien recibe puntos de inicio y final
 def square(start, end):
     "Draw square from start to end."
     up()
     goto(start.x, start.y)
     down()
     begin_fill()
-
+    
+    #Ciclo for para los cuatro lados (relleno)
     for count in range(4):
         forward(end.x - start.x)
         left(90)
