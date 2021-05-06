@@ -1,5 +1,5 @@
 """Paint, for drawing shapes.
-
+HOLA OMAR KOMO EZTAS
 Exercises
 
 1. Add a color.
@@ -9,10 +9,14 @@ Exercises
 5. Add width parameter.
 
 """
-
+#Librerias de donde se importa
 from turtle import *
 from freegames import vector
 
+#Funciones
+#Funcion para dibujar una linea
+#Recibe un punto de inicio (x, y)
+#Y uno de salida (x,y)
 def line(start, end):
     "Draw line from start to end."
     up()
@@ -20,6 +24,7 @@ def line(start, end):
     down()
     goto(end.x, end.y)
 
+#Funcion para dibujar un cuadrado
 def square(start, end):
     "Draw square from start to end."
     up()
