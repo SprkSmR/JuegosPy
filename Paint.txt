@@ -1,5 +1,5 @@
 """Paint, for drawing shapes.
-
+HOLA OMAR KOMO EZTAS
 Exercises
 
 1. Add a color.
