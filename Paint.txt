@@ -12,6 +12,9 @@ Exercises
 from turtle import *
 from freegames import vector
 
+
+#Comentario importantisimo de ferrxr :)
+
 #Funciones
 #Funcion para dibujar una linea
 #Recibe un punto de inicio (x, y)
